@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED4DCAD020A0839000A7466B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4DCACF20A0839000A7466B /* AppDelegate.m */; };
+		ED4DCAD320A0839000A7466B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4DCAD220A0839000A7466B /* ViewController.m */; };
+		ED4DCAD620A0839000A7466B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED4DCAD420A0839000A7466B /* Main.storyboard */; };
+		ED4DCAD820A0839000A7466B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED4DCAD720A0839000A7466B /* Assets.xcassets */; };
+		ED4DCADB20A0839000A7466B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED4DCAD920A0839000A7466B /* LaunchScreen.storyboard */; };
+		ED4DCADE20A0839000A7466B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4DCADD20A0839000A7466B /* main.m */; };
+		ED4DCAE820A0839000A7466B /* ZWTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4DCAE720A0839000A7466B /* ZWTimerTests.m */; };
+		ED4DCAF320A0839000A7466B /* ZWTimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4DCAF220A0839000A7466B /* ZWTimerUITests.m */; };
+		ED4DCB0220A083A400A7466B /* ZWTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4DCB0120A083A400A7466B /* ZWTimerViewController.m */; };
+		ED4DCB0520A083B600A7466B /* ZWTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4DCB0420A083B600A7466B /* ZWTimer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED4DCAE420A0839000A7466B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED4DCAC320A0839000A7466B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED4DCACA20A0839000A7466B;
+			remoteInfo = ZWTimer;
+		};
+		ED4DCAEF20A0839000A7466B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED4DCAC320A0839000A7466B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED4DCACA20A0839000A7466B;
+			remoteInfo = ZWTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED4DCACB20A0839000A7466B /* ZWTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZWTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4DCACE20A0839000A7466B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED4DCACF20A0839000A7466B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED4DCAD120A0839000A7466B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED4DCAD220A0839000A7466B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED4DCAD520A0839000A7466B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED4DCAD720A0839000A7466B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED4DCADA20A0839000A7466B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED4DCADC20A0839000A7466B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED4DCADD20A0839000A7466B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED4DCAE320A0839000A7466B /* ZWTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZWTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4DCAE720A0839000A7466B /* ZWTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWTimerTests.m; sourceTree = "<group>"; };
+		ED4DCAE920A0839000A7466B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED4DCAEE20A0839000A7466B /* ZWTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZWTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4DCAF220A0839000A7466B /* ZWTimerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWTimerUITests.m; sourceTree = "<group>"; };
+		ED4DCAF420A0839000A7466B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED4DCB0020A083A400A7466B /* ZWTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWTimerViewController.h; sourceTree = "<group>"; };
+		ED4DCB0120A083A400A7466B /* ZWTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWTimerViewController.m; sourceTree = "<group>"; };
+		ED4DCB0320A083B600A7466B /* ZWTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWTimer.h; sourceTree = "<group>"; };
+		ED4DCB0420A083B600A7466B /* ZWTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWTimer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED4DCAC820A0839000A7466B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4DCAE020A0839000A7466B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4DCAEB20A0839000A7466B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED4DCAC220A0839000A7466B = {
+			isa = PBXGroup;
+			children = (
+				ED4DCACD20A0839000A7466B /* ZWTimer */,
+				ED4DCAE620A0839000A7466B /* ZWTimerTests */,
+				ED4DCAF120A0839000A7466B /* ZWTimerUITests */,
+				ED4DCACC20A0839000A7466B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED4DCACC20A0839000A7466B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED4DCACB20A0839000A7466B /* ZWTimer.app */,
+				ED4DCAE320A0839000A7466B /* ZWTimerTests.xctest */,
+				ED4DCAEE20A0839000A7466B /* ZWTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED4DCACD20A0839000A7466B /* ZWTimer */ = {
+			isa = PBXGroup;
+			children = (
+				ED4DCACE20A0839000A7466B /* AppDelegate.h */,
+				ED4DCACF20A0839000A7466B /* AppDelegate.m */,
+				ED4DCAD120A0839000A7466B /* ViewController.h */,
+				ED4DCAD220A0839000A7466B /* ViewController.m */,
+				ED4DCAD420A0839000A7466B /* Main.storyboard */,
+				ED4DCAD720A0839000A7466B /* Assets.xcassets */,
+				ED4DCAD920A0839000A7466B /* LaunchScreen.storyboard */,
+				ED4DCADC20A0839000A7466B /* Info.plist */,
+				ED4DCADD20A0839000A7466B /* main.m */,
+				ED4DCB0020A083A400A7466B /* ZWTimerViewController.h */,
+				ED4DCB0120A083A400A7466B /* ZWTimerViewController.m */,
+				ED4DCB0320A083B600A7466B /* ZWTimer.h */,
+				ED4DCB0420A083B600A7466B /* ZWTimer.m */,
+			);
+			path = ZWTimer;
+			sourceTree = "<group>";
+		};
+		ED4DCAE620A0839000A7466B /* ZWTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED4DCAE720A0839000A7466B /* ZWTimerTests.m */,
+				ED4DCAE920A0839000A7466B /* Info.plist */,
+			);
+			path = ZWTimerTests;
+			sourceTree = "<group>";
+		};
+		ED4DCAF120A0839000A7466B /* ZWTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED4DCAF220A0839000A7466B /* ZWTimerUITests.m */,
+				ED4DCAF420A0839000A7466B /* Info.plist */,
+			);
+			path = ZWTimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED4DCACA20A0839000A7466B /* ZWTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4DCAF720A0839000A7466B /* Build configuration list for PBXNativeTarget "ZWTimer" */;
+			buildPhases = (
+				ED4DCAC720A0839000A7466B /* Sources */,
+				ED4DCAC820A0839000A7466B /* Frameworks */,
+				ED4DCAC920A0839000A7466B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZWTimer;
+			productName = ZWTimer;
+			productReference = ED4DCACB20A0839000A7466B /* ZWTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED4DCAE220A0839000A7466B /* ZWTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4DCAFA20A0839000A7466B /* Build configuration list for PBXNativeTarget "ZWTimerTests" */;
+			buildPhases = (
+				ED4DCADF20A0839000A7466B /* Sources */,
+				ED4DCAE020A0839000A7466B /* Frameworks */,
+				ED4DCAE120A0839000A7466B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED4DCAE520A0839000A7466B /* PBXTargetDependency */,
+			);
+			name = ZWTimerTests;
+			productName = ZWTimerTests;
+			productReference = ED4DCAE320A0839000A7466B /* ZWTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED4DCAED20A0839000A7466B /* ZWTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4DCAFD20A0839000A7466B /* Build configuration list for PBXNativeTarget "ZWTimerUITests" */;
+			buildPhases = (
+				ED4DCAEA20A0839000A7466B /* Sources */,
+				ED4DCAEB20A0839000A7466B /* Frameworks */,
+				ED4DCAEC20A0839000A7466B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED4DCAF020A0839000A7466B /* PBXTargetDependency */,
+			);
+			name = ZWTimerUITests;
+			productName = ZWTimerUITests;
+			productReference = ED4DCAEE20A0839000A7466B /* ZWTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED4DCAC320A0839000A7466B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = zzw;
+				TargetAttributes = {
+					ED4DCACA20A0839000A7466B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					ED4DCAE220A0839000A7466B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED4DCACA20A0839000A7466B;
+					};
+					ED4DCAED20A0839000A7466B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED4DCACA20A0839000A7466B;
+					};
+				};
+			};
+			buildConfigurationList = ED4DCAC620A0839000A7466B /* Build configuration list for PBXProject "ZWTimer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED4DCAC220A0839000A7466B;
+			productRefGroup = ED4DCACC20A0839000A7466B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED4DCACA20A0839000A7466B /* ZWTimer */,
+				ED4DCAE220A0839000A7466B /* ZWTimerTests */,
+				ED4DCAED20A0839000A7466B /* ZWTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED4DCAC920A0839000A7466B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4DCADB20A0839000A7466B /* LaunchScreen.storyboard in Resources */,
+				ED4DCAD820A0839000A7466B /* Assets.xcassets in Resources */,
+				ED4DCAD620A0839000A7466B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4DCAE120A0839000A7466B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4DCAEC20A0839000A7466B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED4DCAC720A0839000A7466B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4DCB0520A083B600A7466B /* ZWTimer.m in Sources */,
+				ED4DCAD320A0839000A7466B /* ViewController.m in Sources */,
+				ED4DCADE20A0839000A7466B /* main.m in Sources */,
+				ED4DCAD020A0839000A7466B /* AppDelegate.m in Sources */,
+				ED4DCB0220A083A400A7466B /* ZWTimerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4DCADF20A0839000A7466B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4DCAE820A0839000A7466B /* ZWTimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4DCAEA20A0839000A7466B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4DCAF320A0839000A7466B /* ZWTimerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED4DCAE520A0839000A7466B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED4DCACA20A0839000A7466B /* ZWTimer */;
+			targetProxy = ED4DCAE420A0839000A7466B /* PBXContainerItemProxy */;
+		};
+		ED4DCAF020A0839000A7466B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED4DCACA20A0839000A7466B /* ZWTimer */;
+			targetProxy = ED4DCAEF20A0839000A7466B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED4DCAD420A0839000A7466B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED4DCAD520A0839000A7466B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED4DCAD920A0839000A7466B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED4DCADA20A0839000A7466B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED4DCAF520A0839000A7466B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED4DCAF620A0839000A7466B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED4DCAF820A0839000A7466B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2RDTZE3L65;
+				INFOPLIST_FILE = ZWTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZWTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED4DCAF920A0839000A7466B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2RDTZE3L65;
+				INFOPLIST_FILE = ZWTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZWTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED4DCAFB20A0839000A7466B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2RDTZE3L65;
+				INFOPLIST_FILE = ZWTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZWTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZWTimer.app/ZWTimer";
+			};
+			name = Debug;
+		};
+		ED4DCAFC20A0839000A7466B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2RDTZE3L65;
+				INFOPLIST_FILE = ZWTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZWTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZWTimer.app/ZWTimer";
+			};
+			name = Release;
+		};
+		ED4DCAFE20A0839000A7466B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2RDTZE3L65;
+				INFOPLIST_FILE = ZWTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZWTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZWTimer;
+			};
+			name = Debug;
+		};
+		ED4DCAFF20A0839000A7466B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2RDTZE3L65;
+				INFOPLIST_FILE = ZWTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZWTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZWTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED4DCAC620A0839000A7466B /* Build configuration list for PBXProject "ZWTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4DCAF520A0839000A7466B /* Debug */,
+				ED4DCAF620A0839000A7466B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED4DCAF720A0839000A7466B /* Build configuration list for PBXNativeTarget "ZWTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4DCAF820A0839000A7466B /* Debug */,
+				ED4DCAF920A0839000A7466B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED4DCAFA20A0839000A7466B /* Build configuration list for PBXNativeTarget "ZWTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4DCAFB20A0839000A7466B /* Debug */,
+				ED4DCAFC20A0839000A7466B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED4DCAFD20A0839000A7466B /* Build configuration list for PBXNativeTarget "ZWTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4DCAFE20A0839000A7466B /* Debug */,
+				ED4DCAFF20A0839000A7466B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED4DCAC320A0839000A7466B /* Project object */;
+}

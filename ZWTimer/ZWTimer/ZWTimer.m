@@ -40,6 +40,7 @@
     // 获得主队列
     dispatch_queue_t queue = dispatch_get_main_queue();
     if (self.gcdTimer) {
+        dispatch_cancel(self.gcdTimer);
         self.gcdTimer = nil;
     }
     // 创建一个定时器(dispatch_source_t本质还是个OC对象)

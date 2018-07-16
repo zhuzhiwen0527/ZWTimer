@@ -14,6 +14,7 @@
 @property (nonatomic,strong) NSTimer * timer;
 @end
 @implementation ZWTimer
+
 - (void)startTimer:(NSTimeInterval)seconds
           delegate:(id<ZWTimerDelegate>)delegate
            repeats:(BOOL)repeats{

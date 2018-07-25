@@ -20,8 +20,7 @@
            repeats:(BOOL)repeats{
     
     self.delegate = delegate;
-    
-    
+
     if (self.timer)
     {
         [self.timer invalidate];
@@ -33,6 +32,8 @@
                                                 selector:@selector(onTimer:)
                                                 userInfo:nil
                                                  repeats:repeats];
+    //开启 立即执行 否则会延迟seconds时间 再执行
+    [self.timer fire];
 }
 - (void)startGCDTimer:(NSTimeInterval)seconds
              delegate:(id<ZWTimerDelegate>)delegate{
@@ -48,14 +49,14 @@
     self.gcdTimer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, queue);
     
     uint64_t interval = (uint64_t)(seconds * NSEC_PER_SEC);
+    //  DISPATCH_TIME_NOW 立即执行
     dispatch_source_set_timer(self.gcdTimer, DISPATCH_TIME_NOW, interval, 0);
     
     // 设置回调
     dispatch_source_set_event_handler(self.gcdTimer, ^{
-        
-        
+
         // 取消定时器
-        
+
         if (self.delegate && [self.delegate respondsToSelector:@selector(onTimerFired:)]) {
             
             [self.delegate onTimerFired:self];
@@ -95,8 +96,7 @@
     }
 }
 - (void)dealloc{
-    
+    [self stopTimer];
     NSLog(@"定时器释放");
-    
 }
 @end
